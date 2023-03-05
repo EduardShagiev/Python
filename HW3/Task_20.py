@@ -17,11 +17,19 @@
 dic_eng_rus={'AEIOULNSTR': 1, 'DG': 2, 'BCMP':3,'FHVWY': 4, 'k':5, 'JX':8, 'QZ':10,'АВЕИНОРСТ':1, 'ДКЛМПУ':2, 
              'БГЁЬЯ':3, 'ЙЫ':4, 'ЖЗХЦЧ':5 , 'ШЭЮ':8,  'ФЩЪ':10}
 text = input("Введите текст: ").upper()
+<<<<<<< HEAD
 word=list(text)
 lst=[]
 # Созадние списка из текста
 #for i in range(len(text)):
 #    word.append(text[i])
+=======
+word=[]
+lst=[]
+# Созадние списка из текста
+for i in range(len(text)):
+    word.append(text[i])
+>>>>>>> c475acd801563477d0e194111c0a27f7366094c1
 print(word)
 # функция поиска буквы
 def findletter(x):
